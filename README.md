@@ -83,7 +83,8 @@ pip3 install numpy==1.19.4
 echo 'export OPENBLAS_CORETYPE=ARMV8' >> ~/.bashrc
 export OPENBLAS_CORETYPE=ARMV8
 
-## Menjalankan Program Utama
+## 5. Menjalankan Program Utama
+
 # 1. Reset service kamera CSI
 sudo systemctl restart nvargus-daemon
 
