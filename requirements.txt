@@ -1,2 +1,12 @@
+# ==========================================
+# Dependencies for Jetson Nano Sign Detection
+# ==========================================
+
+# Core image processing & numerical computing
 numpy==1.19.4
-Jetson.GPIO
+
+# Hardware GPIO pin interface for LED control
+Jetson.GPIO>=2.0.17
+
+# Optional: Configuration parsing for dataset training
+PyYAML>=5.3.1
